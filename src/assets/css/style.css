@@ -1450,11 +1450,14 @@ button[type=submit]:hover {
   transition: 0.3s;
 }
 
+
 @media (max-width: 768px) {
   #footer .footer-bottom {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
+  
 
   #footer .copyright,
   #footer .credits {
