@@ -1274,7 +1274,7 @@ button[type=submit]:hover {
   color: #4668a2;
   content: "/";
 }
-
+  
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1457,7 +1457,12 @@ button[type=submit]:hover {
     padding-bottom: 20px;
   }
 
-  
+  .corrigemargem{
+    margin-top: -0.3rem !important;
+  }
+  .margem-div{
+    margin-bottom: 1.5rem; 
+  }
 
   #footer .copyright,
   #footer .credits {
@@ -1469,3 +1474,14 @@ button[type=submit]:hover {
     padding-top: 4px;
   }
 }
+
+@media (min-width: 769px) and (max-width: 982px) {
+  .titulo-texto{
+    font-size: 1rem ;
+  }
+  .paragrafo-texto{
+    font-size: 0,8rem ;
+  }
+  
+}
+
